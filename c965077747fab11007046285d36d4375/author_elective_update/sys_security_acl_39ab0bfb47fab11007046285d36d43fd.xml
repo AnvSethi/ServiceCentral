@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_1047617_servic_0_issue_request</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:36:11</sys_created_on>
+        <sys_id>39ab0bfb47fab11007046285d36d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1047617_servic_0_issue_request</sys_name>
+        <sys_package display_value="Service Central" source="x_1047617_servic_0">c965077747fab11007046285d36d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Central">c965077747fab11007046285d36d4375</sys_scope>
+        <sys_update_name>sys_security_acl_39ab0bfb47fab11007046285d36d43fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:36:11</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Central">c965077747fab11007046285d36d4375</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>sys_security_acl_39ab0bfb47fab11007046285d36d43fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_1047617_servic_0_issue_request</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 07:36:11</sys_created_on><sys_id>39ab0bfb47fab11007046285d36d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1047617_servic_0_issue_request</sys_name><sys_package display_value="Service Central" source="x_1047617_servic_0">c965077747fab11007046285d36d4375</sys_package><sys_policy/><sys_scope display_value="Service Central">c965077747fab11007046285d36d4375</sys_scope><sys_update_name>sys_security_acl_39ab0bfb47fab11007046285d36d43fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 07:36:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1932632721</payload_hash>
+        <record_name>x_1047617_servic_0_issue_request</record_name>
+        <reverted_from/>
+        <source>0565077747fab11007046285d36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:36:11</sys_created_on>
+        <sys_id>7dab0bfb47fab11007046285d36d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3e0e451e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:36:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>71ab0bfb09fab1105e7acb7cd62cc4ff</update_guid>
+        <update_guid_history>71ab0bfb09fab1105e7acb7cd62cc4ff:-1932632721</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:45:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0c1c3dd4d9984a868a98329720e78da4</sys_id>
+        <sys_metadata>39ab0bfb47fab11007046285d36d43fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1047617_servic_0_issue_request</sys_name>
+        <sys_package display_value="Service Central" source="x_1047617_servic_0">c965077747fab11007046285d36d4375</sys_package>
+        <sys_parent display_value="">78ab0bfb47fab11007046285d36d4307</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Central">c965077747fab11007046285d36d4375</sys_scope>
+        <sys_scope_delete display_value="">1e248a4f55d149e683e0e26b42f55384</sys_scope_delete>
+        <sys_update_name>sys_security_acl_39ab0bfb47fab11007046285d36d43fd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_39ab0bfb47fab11007046285d36d43fd">7dab0bfb47fab11007046285d36d43ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:45:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

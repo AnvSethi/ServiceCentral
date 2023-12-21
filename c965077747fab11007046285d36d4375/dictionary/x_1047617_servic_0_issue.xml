@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="15ca233f477eb11007046285d36d43e6" label="issue" max_length="40" name="x_1047617_servic_0_issue" type="collection">
+        <element label="Case Id" max_length="40" name="case_id" type="string"/>
+        <element label="Short Description" mandatory="true" max_length="250" name="description" type="string"/>
+        <element label="Document" max_length="40" name="document" type="file_attachment"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Issue Type" mandatory="true" max_length="50" name="short_description" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hardware Issue" sequence="0" value="Hardware Issue"/>
+                <element inactive_on_update="false" label="Software Issue" sequence="1" value="Software Issue"/>
+                <element inactive_on_update="false" label="Internet Expense Issue" sequence="2" value="Internet Expense Issue"/>
+                <element inactive_on_update="false" label="Others" sequence="3" value="Others"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="case_id"/>
+        </index>
+    </element>
+</database>

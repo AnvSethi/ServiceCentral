@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Order success</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-14 08:15:31</sys_created_on>
+        <sys_id>17512c661ccbf510349e38d67b054ed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success</sys_name>
+        <sys_package display_value="Service Central" source="x_1047617_servic_0">c965077747fab11007046285d36d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Central">c965077747fab11007046285d36d4375</sys_scope>
+        <sys_update_name>sys_ux_screen_type_17512c661ccbf510349e38d67b054ed3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-14 08:15:31</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=17512c661ccbf510349e38d67b054ed3"/>
+</record_update>

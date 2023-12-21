@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Service Central">cb512c6647cbf51007046285d36d4390</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Page">df512c6678cbf5109a50c04fec1269d4</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-14 08:15:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5f512c66cccbf5109148735594839db5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Service Central" source="x_1047617_servic_0">c965077747fab11007046285d36d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Central">c965077747fab11007046285d36d4375</sys_scope>
+        <sys_update_name>sys_ux_page_property_5f512c66cccbf5109148735594839db5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-14 08:15:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1047617_servic_0.cb512c6647cbf51007046285d36d4390.route.chrome_header.df512c6678cbf5109a50c04fec1269d4</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f512c66cccbf5109148735594839db5"/>
+</record_update>

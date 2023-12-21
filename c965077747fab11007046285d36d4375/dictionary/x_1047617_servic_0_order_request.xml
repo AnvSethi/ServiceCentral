@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c40a97f474f3d1007046285d36d43d2" label="Order &amp; Request" max_length="40" name="x_1047617_servic_0_order_request" type="collection">
+        <element choice="1" dependent="type" dependent_on_field="type" label="item" max_length="40" name="item" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Hardware" inactive_on_update="false" label="LAN Cable" sequence="0" value="LAN Cable"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Router" sequence="1" value="Router"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Mouse" sequence="2" value="Mouse"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Keyboard" sequence="3" value="Keyboard"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Git" sequence="4" value="Git"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Adobe Suite" sequence="5" value="Adobe Suite"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Microsoft Office" sequence="6" value="Microsoft Office Suite"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Software Center" sequence="7" value="Software Center"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="Hardware"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="Software"/>
+            </choice>
+        </element>
+    </element>
+</database>
